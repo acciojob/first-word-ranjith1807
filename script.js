@@ -1,8 +1,8 @@
 function firstWord(s) {
   // your code here
+	let str[0]=s.trim();
+	return str;
 }
-
-// Do not change the code below
-
 const s = prompt("Enter String:");
 alert(firstWord(s));
+
