@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
-	s.trim();
-	let str[0]=s.split(" ")
+	let str=s.trim();
+	str=s.split(" ")
 	return str[0];
 }
 const s = prompt("Enter String:");
